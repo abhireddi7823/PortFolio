@@ -1,0 +1,216 @@
+<!-- <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">ABHISHEK REDDY</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Abhishek Reddy</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic">
+            <img src="./assets/img2.jpg" alt="Abhishek Reddy Profile Picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello,I am</p>
+            <h1 class="title">ABHISHEK REDDY</h1>
+            <p class="section__text__p2">PYTHON DEVELOPER</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"
+                onclick="window.open('./assets/RESUMETECHM (1).pdf')">
+                Resume
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                Contact Info
+            </button>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/img1.jpg"
+                alt="Profile picture"
+                class="about-pic"/>
+
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h3>Education</h3>
+                        <p><b>B.Tech Computer Science and Engineering</b></p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Motivated and detail-oriented B.Tech Computer Science and Engineering graduate with a strong academic background and a passion for Devops Engineering. Possess a proven ability to learn quickly and apply knowledge effectively. Adept at collaborating in team environments and committed to contributing innovative ideas. Eager to leverage my skills and education to contribute to the success of company as Devops Engineer. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">ABHISHEK REDDY</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <nav id="hamburger-nav">
+    <div class="logo">Abhishek Reddy</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <section id="profile">
+    <div class="section__pic">
+      <img src="./assets/img2.jpg" alt="Abhishek Reddy Profile Picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I am</p>
+      <h1 class="title">ABHISHEK REDDY</h1>
+      <p class="section__text__p2">PYTHON DEVELOPER</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/RESUMETECHM (1).pdf')">Resume</button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/img1.jpg" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h3>Education</h3>
+            <p><b>B.Tech Computer Science and Engineering</b></p>
+          </div>
+        </div>
+       <div class="text-container enhanced-about">
+  <p>
+    <strong>I’m Kancham Reddy Abhishek Reddy</strong>, a passionate and self-driven <span class="highlight">Python Developer</span> from <span class="highlight">Kadapa, Andhra Pradesh</span>. Coming from a farming family, I value <span class="highlight">hard work</span>, <span class="highlight">persistence</span>, and <span class="highlight">continuous learning</span>.
+  </p>
+  <p>
+    My fascination with technology led me to complete a certified course in Python programming, focusing on <strong>backend development</strong>, <strong>automation</strong>, and <strong>scripting</strong>.
+  </p>
+  <p>
+    I’ve built web applications using <strong>Flask</strong> and <strong>Streamlit</strong>, and have experience with <strong>PostgreSQL</strong> and <strong>SQLite</strong> databases. I’m proficient in building <strong>REST APIs</strong>, applying <strong>OOP principles</strong>, and handling data using <strong>Pandas</strong> and <strong>NumPy</strong>.
+  </p>
+  <p>
+    I also work with <strong>DevOps tools</strong> such as <strong>Docker</strong>, <strong>Git</strong>, <strong>GitHub Actions</strong>, and <strong>Jenkins</strong> to automate development and deployment pipelines.
+  </p>
+  <p>
+    I enjoy tackling real-time projects that push my skills and help me grow professionally. My work is showcased on 
+    <a href="https://github.com/abhireddi7823" target="_blank" class="link-btn"><i class="fab fa-github"></i> GitHub</a> 
+    and I actively connect with the tech community on 
+    <a href="https://www.linkedin.com/in/kancham-reddy-abhishek-reddy-67b367332/" target="_blank" class="link-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>.
+  </p>
+</div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <p class="section__text__p1">Browse My Work</p>
+    <h1 class="title">Projects</h1>
+    <div class="project-container">
+      <<div class="project-card">
+  <h3>📰 Fake News Detection App</h3>
+  <p>This project uses machine learning (CNN & RNN) to detect fake news from real news articles. Built using Python and Flask.</p>
+  <button class="btn btn-color-2" onclick="window.open('https://github.com/abhireddi7823/Fake-News-Detection.git')">
+    View on GitHub
+  </button>
+</div>
+
+      <div class="project-card">
+        <h3>🤖 ChatBot Agent</h3>
+        <p>An intelligent conversational agent built with Python and AI libraries. Interacts dynamically with users in real-time.</p>
+        <button class="btn btn-color-1" onclick="window.open('https://github.com/abhireddi7823/ChatBotAI.git')">
+          View on GitHub
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact</h1>
+    <div class="contact-container">
+      <p><i class="fas fa-envelope"></i> abhishekreddy.kanchamreddy@gmail.com</p>
+      <p><i class="fas fa-phone"></i> +91-7288991010</p>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/kancham-reddy-abhishek-reddy-67b367332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/abhireddi7823/ChatBotAI.git" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
